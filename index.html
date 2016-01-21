@@ -9,12 +9,19 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
   <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>
+    $( document ).ready(function() {
+      $("#myframe").contents().find("header.l-header").hide()
+    });
+  </script>
 </head>
 <body>
+
 <section class="page-header">
   <div id="over" style="vertical-align: middle;">
     <h1 class="project-name">Projects by Kunal Seth</h1>
-  <img src="images/iSchool.png">
+    <img src="images/iSchool.png">
     <h2 class="project-tagline">Master of Science in Information Management</h2>
   </div>
 
@@ -24,9 +31,11 @@
 
 
   <div id="info">
-    <iframe id="frame" scrolling="no" src="https://public.tableau.com/profile/kunal.arun.seth#!/vizhome/Ashes-batsman/BatsmanGraph"
-           style=" margin-left: -36px viz-control-bar ng-scope{display:none}"; width="1040px" height="910px" ></iframe>>
+    <iframe id="myframe" scrolling="no" src="https://public.tableau.com/profile/kunal.arun.seth#!/vizhome/Ashes-batsman/BatsmanGraph"
+            style="margin-left: -36px"; width="1040px" height="910px" ></iframe>>
   </div>
+
+
 
 </section>
 </body>

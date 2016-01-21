@@ -9,6 +9,11 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+#logo {
+  height: 105px;
+  margin: 20px 0 0 20px;
+}
+
 a {
   color: #1e6bb8;
   text-decoration: none; }
@@ -61,7 +66,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 2rem 2rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -243,3 +248,8 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+#frame {.l-branding {display:none}}
+#info {.l-branding {display:none}}
+
+iframe. l-branding{display: none}
